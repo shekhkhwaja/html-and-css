@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/hello.css">
+         <script>
+        function playsong2(){
+            document.getElementById("jannat").play();
+        }
+        //function stop(){
+         //   document.getElementById("jannat").pause();
+       // }
+
+     </script>
+</head>
+<body>
+   <div class="nav">
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Songs</a></li>
+    <li><a href="">Latest Collection</a></li>
+    </ul>
+    </div>
+
+
+    <div class="playing">
+        <div class="circle" onclick="playsong2()" onmouseleave="stop()">
+     <audio controls id="jannat">
+    <source src="../song/Tu Hi Mera-320kbps.mp3"  type="audio/mp3">
+    </audio>
+     </div>
+    </div>
+
+<p>&#128512;</p>
+</body>
+</html>

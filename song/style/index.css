@@ -1,0 +1,93 @@
+.one{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin: 200px 400px 0 400px;
+    border-radius: 50%;
+    transition:width 4s,height 4s,transform 4s;
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 20px solid skyblue;
+
+}
+.two{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    height: 300px;
+    width: 300px;
+    margin: 200px 400px 0 400px;
+    border-radius: 50%;
+    transition:width 4s,height 4s,transform 4s;
+    background-image: url(../image/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 20px solid skyblue;
+
+}
+body
+{
+    background-image: url("../image/water.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.one:hover{
+    height:600px ;
+    width: 600px;
+    transform: rotate(360deg);
+    
+}
+.two:hover{
+    height:600px ;
+    width: 600px;
+    transform: rotate(360deg);
+    
+}
+.song{
+    position: absolute;
+    left: 745px;
+    top: 350px;
+}
+.song2{
+    position: absolute;
+    left: 760px;
+    top: 750px;
+}
+.nav{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+li{
+   color: white;
+   padding-right: 200px;
+   text-decoration: none;
+   
+  
+}
+a{
+   font-size: 120px;
+    text-decoration: none;
+    color: white;
+    padding-inline-start: 120px;
+    position: sticky;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+}
+.search{
+    position: absolute;
+    top: 50px;
+    left: 5000px;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    margin:100px 0 0 500px;
+    height:700px;
+    width: 1050px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.circle
+{
+    position: absolute;
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 2px solid;
+    border-radius: 50%;
+}
+.cards1{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: BF1A1A;
+    border-radius: 10px;
+    margin:100px 0 0 650px ;
+
+}
+.cards2{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:100px 0 0 850px;
+
+}
+.cards3{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 300px 0 0 650px;
+
+}
+.cards4{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:300px 0 0 850px;
+
+}
+.bar{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    top: 580px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.bar{
+    position: relative;
+}
+.upper{
+    margin: 15px;
+    font-size: 30px;
+}
+.lower{
+    margin: 20px;
+    font-size: 30px;
+}
+span{
+    margin:0 60px;
+
+}
